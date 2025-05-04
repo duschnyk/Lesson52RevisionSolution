@@ -1,0 +1,1 @@
+int count_extreme_elements(double* array, int size);

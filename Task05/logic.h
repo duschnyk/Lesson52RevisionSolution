@@ -1,0 +1,1 @@
+﻿int get_last_local_maxima(int* array, int size);
