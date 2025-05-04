@@ -12,5 +12,15 @@
 #include "logic.h"
 
 void reverse(int* array, int size) {
-	return;
+	if (size <= 1 || array == nullptr)
+	{
+		return;
+	}
+
+	for (int i = 0; i < size / 2; i++)
+	{
+		int t = array[i];
+		array[i] = array[size - 1 - i];
+		array[size - 1 - i] = t;
+	}
 }

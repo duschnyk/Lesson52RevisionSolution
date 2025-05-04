@@ -16,6 +16,8 @@ void print_test(int* array, int size, int* expected, string test_name) {
 
 	bool result = true;
 	
+	reverse(array, size);
+
 	if (size > 0 && array != nullptr) {
 		for (int i = 0; i < size; i++)
 		{
