@@ -67,7 +67,7 @@ void test07() {
 void test08() {
 	int size = 5;
 	int* array = new int[size] { 1, 2, 5, 3, 4 };
-	int expected = 2;
+	int expected = 4;
 	print_test(array, size, expected, "test08");
 	delete[] array;
 }
@@ -75,7 +75,7 @@ void test08() {
 void test09() {
 	int size = 5;
 	int* array = new int[size] { 1, 5, 2, 3, 4 };
-	int expected = 5;
+	int expected = 4;
 	print_test(array, size, expected, "test09");
 	delete[] array;
 }
@@ -98,7 +98,7 @@ void test11() {
 
 void test12() {
 	int size = 5;
-	int* array = new int[size] { 7, 2, 5, 3, 4 };
+	int* array = new int[size] { 7, 2, 5, 3, 2 };
 	int expected = 5;
 	print_test(array, size, expected, "test12");
 	delete[] array;
